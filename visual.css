@@ -453,9 +453,17 @@ body{
     height: 183.31px;
     float: right;
     margin-left: 1rem;
-    margin-top: 10px
+    margin-top: 10px;
+    border: 1px solid #eaecf0;
 }
 
+.border-image{
+    width: 152px;
+    height: 152px;
+    border: 1px solid #eaecf0;
+    background-color: red;
+    
+}
 
 .imagem-final{
     position: relative;
@@ -590,10 +598,9 @@ body{
 }
 
 .imagens-1-final{
-    display: flex;
-    flex-direction: row;
+    margin-left: 380px
 }
 
-.imagens-2-final{
+.lista-fotter-img{
     display: flex;
 }
